@@ -37,4 +37,5 @@ p {
     border: none;
     font-family: 'Open Sans', sans-serif;
     color: hsl(257, 40%, 49%);
+    cursor: pointer;
 }
