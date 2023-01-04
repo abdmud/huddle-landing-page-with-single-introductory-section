@@ -58,3 +58,39 @@ p {
 .fa-twitter {
     margin-left: 20%;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 375px) {
+    body {
+        width: 360px;
+    }
+    .logo img {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 150px;
+    }
+    .page-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .left img {
+        width: 330px;
+    }
+    .right {
+        text-align: center;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .button {
+        width: 250px;
+        height: 50px;
+    }
+    .icons-container {
+        justify-content: center;
+    }
+    footer {
+        margin-top: 10%;
+    }
+}
