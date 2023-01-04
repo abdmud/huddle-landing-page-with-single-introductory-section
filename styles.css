@@ -39,3 +39,22 @@ p {
     color: hsl(257, 40%, 49%);
     cursor: pointer;
 }
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3%;
+    height: 50px;
+    padding-right: 3%;
+}
+
+.icons {
+   display: flex;
+   justify-content: space-around;
+   width: 150px;
+}
+
+.fa-twitter {
+    margin-left: 20%;
+}
