@@ -63,6 +63,8 @@ p {
 @media only screen and (max-width: 375px) {
     body {
         width: 360px;
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
     }
     .logo img {
         margin-top: 3%;
