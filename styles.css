@@ -81,6 +81,7 @@ p {
     }
     .right {
         text-align: center;
+        width: 330px;
     }
     h1 {
         font-size: 28px;
